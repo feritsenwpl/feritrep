@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar p {
+    color: #adadad;
+    margin: auto 0;
+    padding: 0 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.navbar p:hover {
+    color: #787878;
+    transition: all 0.5s ease-in-out;
+}
+
+.first-part {
+    background-color: #a9dce3;
+    padding: 30px 90px;
+    display: flex;
+    cursor: default;
+}
+
+.first-part img {
+    border: #fff solid 10px;
+    border-radius: 100%;
+    width: 40%;
+    margin: auto;
+}
+
+.first-part-item-one{
+    margin: auto;
+    
+}
+
+.first-part-item-one h1 {
+    font-size: 100px;
+}
+
+.first-part-item-one p {
+    padding: 0 20% 0 0;
+    font-size: 20px;
+    color: #787878;
+}
+
+.first-part-button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 30px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+    font-weight: bolder;
+}
+
+.first-part-button:hover {
+    color: #000000;
+    background-color: #d4d4d4;
+    transition: all 0.2s ease;
+}
+
+.second-part {
+    text-align: center;
+    padding: 7vh 0;
+    cursor: default;
+    background-color: #cfe1ff;
+}
+
+.second-part h1 {
+    margin: 5vh 0;
+    font-size: 90px;
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.second-part p {
+    margin: 5vh 20%;
+    font-size: 20px;
+    color: #787878;
+}
+
+.my-works-title {
+    background-color: #b6c4ff;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: "Sevillana", cursive;
+}
+
+.my-works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #b6c4ff;
+}
+
+.my-works-item {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-size: cover;
+}
+
+.item-one {
+    border: solid 10px #fff;
+    border-radius: 100%;
+    background-image: url(/images/webdesign.png);
+}
+
+.item-two {
+    border: solid 10px #fff;
+    border-radius: 100%;
+    background-image: url(/images/mobileapps.png);
+}
+
+.item-three {
+    border-radius: 100%;
+    border: solid 10px #fff;
+    background-image: url(/images/games.png);
+    background-position: center;
+}
+
+.go-to-my-works-button {
+    text-align: center;
+    background-color: #b6c4ff;
+    padding: 5vh 0;
+}
+
+.go-to-my-works-button button {
+    padding: 1rem 2rem;
+    border: 0;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.footer {
+    color: #8c8c8c;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    padding-top: 30px;
+}
+
+.footer a {
+    color: #8c8c8c;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #646464;
+    transition: 0.5s;
+}
+
+.footer-item {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.footer-links a {
+    padding: 10px;
+}
+
+.social-media-icons a {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.footer-item p {
+    cursor: default;
+}
+
+.copyrights {
+    font-size: small;
+    padding-bottom: 50px;
+}
